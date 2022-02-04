@@ -8,7 +8,7 @@ include $_SERVER['DOCUMENT_ROOT'] . "/" . $pastaEPagina . "includes/geral.php";
 <html lang="pt-BR">
 
 <head>
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
 
 
   <!-- Site Desenvolvido por <?php echo $creditos; ?> / <?php echo $author; ?> -->
@@ -79,46 +79,13 @@ include $_SERVER['DOCUMENT_ROOT'] . "/" . $pastaEPagina . "includes/geral.php";
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
 
   <!-- Web Fonts  -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800%7CShadows+Into+Light%7CPlayfair+Display:400" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800%7CShadows+Into+Light%7CPlayfair+Display:400&display=swap" rel="stylesheet" type="text/css">
 
   <!-- Vendor CSS -->
-  <link rel="stylesheet" href="<?= $urlcompleta; ?>vendor/bootstrap/css/bootstrap.min.css">
-  <link rel="stylesheet" href="<?= $urlcompleta; ?>vendor/fontawesome-free/css/all.min.css">
-  <link rel="stylesheet" href="<?= $urlcompleta; ?>vendor/simple-line-icons/css/simple-line-icons.min.css">
-  <link rel="stylesheet" href="<?= $urlcompleta; ?>vendor/owl.carousel/assets/owl.carousel.min.css">
-  <link rel="stylesheet" href="<?= $urlcompleta; ?>vendor/owl.carousel/assets/owl.theme.default.min.css">
-  <link rel="stylesheet" href="<?= $urlcompleta; ?>vendor/magnific-popup/magnific-popup.min.css">
-  <link rel="stylesheet" href="<?= $urlcompleta; ?>vendor/animate/animate.compat.css">
-
-
-
-  <!-- Theme CSS -->
-  <link rel="stylesheet" href="<?= $urlcompleta; ?>css/theme.css">
-  <link rel="stylesheet" href="<?= $urlcompleta; ?>css/theme-elements.css">
-  <link rel="stylesheet" href="<?= $urlcompleta; ?>css/theme-blog.css">
-  <link rel="stylesheet" href="<?= $urlcompleta; ?>css/theme-shop.css">
-
-  <!-- Current Page CSS -->
-  <link rel="stylesheet" href="<?= $urlcompleta; ?>vendor/rs-plugin/css/settings.css">
-  <link rel="stylesheet" href="<?= $urlcompleta; ?>vendor/rs-plugin/css/layers.css">
-  <link rel="stylesheet" href="<?= $urlcompleta; ?>vendor/rs-plugin/css/navigation.css">
-
-  <!-- Demo CSS -->
-
-
-  <!-- Skin CSS -->
-  <link rel="stylesheet" href="<?= $urlcompleta; ?>css/skin-corporate-17.css">
-
-  <!-- Theme Custom CSS -->
-  <link rel="stylesheet" href="<?= $urlcompleta; ?>css/custom.css">
-
-  <!-- LOGO TIPO ICON CSS -->
-  <link rel="stylesheet" href="<?= $urlcompleta; ?>css/tipologo.css">
+  <!-- <link rel="stylesheet" href="<?= $urlcompleta; ?>css/style-min.css"> -->
 
   <!-- Head Libs -->
   <script src="<?= $urlcompleta; ?>vendor/modernizr/modernizr.min.js"></script>
-
-  <link rel="stylesheet" href="<?= $urlcompleta; ?>css/tipologo.css">
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-140607866-2"></script>
@@ -148,7 +115,7 @@ include $_SERVER['DOCUMENT_ROOT'] . "/" . $pastaEPagina . "includes/geral.php";
     })(window, document, 'script', 'dataLayer', 'GTM-58V3N52');
   </script>
   <!-- End Google Tag Manager -->
-
+  <style><?php require($_SERVER["DOCUMENT_ROOT"]."/css/style-min.css"); ?></style>
 
 </head>
 

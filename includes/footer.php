@@ -47,37 +47,8 @@
 <script type="text/javascript" src="https://phonetrack-static.s3.sa-east-1.amazonaws.com/914101ec47c52b48a7b6ccc6f5a76f1f.js" data-cookiedays="5"></script>
 
 <script type="text/javascript" async src="https://d335luupugsy2.cloudfront.net/js/loader-scripts/7af56389-fe09-4ba2-a222-cda3cb523d4c-loader.js"></script>
-<!-- Vendor -->
-<script src="<?= $urlcompleta; ?>vendor/jquery/jquery.min.js"></script>
-<script src="<?= $urlcompleta; ?>vendor/jquery.appear/jquery.appear.min.js"></script>
-<script src="<?= $urlcompleta; ?>vendor/jquery.easing/jquery.easing.min.js"></script>
-<script src="<?= $urlcompleta; ?>vendor/jquery.cookie/jquery.cookie.min.js"></script>
-<script src="<?= $urlcompleta; ?>vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-<script src="<?= $urlcompleta; ?>vendor/bootstrap/js/bootstrap.min.js"></script>
-<script src="<?= $urlcompleta; ?>vendor/jquery.validation/jquery.validate.min.js"></script>
-<script src="<?= $urlcompleta; ?>vendor/jquery.easy-pie-chart/jquery.easypiechart.min.js"></script>
-<script src="<?= $urlcompleta; ?>vendor/jquery.gmap/jquery.gmap.min.js"></script>
-<script src="<?= $urlcompleta; ?>vendor/lazysizes/lazysizes.min.js"></script>
-<script src="<?= $urlcompleta; ?>vendor/isotope/jquery.isotope.min.js"></script>
-<script src="<?= $urlcompleta; ?>vendor/owl.carousel/owl.carousel.min.js"></script>
-<script src="<?= $urlcompleta; ?>vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
-<script src="<?= $urlcompleta; ?>vendor/vide/jquery.vide.min.js"></script>
-<script src="<?= $urlcompleta; ?>vendor/vivus/vivus.min.js"></script>
 
-<!-- Theme Base, Components and Settings -->
-<script src="<?= $urlcompleta; ?>js/theme.js"></script>
-
-<!-- CAMPO OCULTO FORMULARIO ORBIT -->
-<script src="<?= $urlcompleta; ?>js/orbit-form.js"></script>
-
-<script src="<?= $urlcompleta; ?>js/views/view.shop.js"></script>
-
-<!-- Theme Initialization Files -->
-<script src="<?= $urlcompleta; ?>js/theme.init.js"></script>
-
-<!-- Examples -->
-<script src="<?= $urlcompleta; ?>js/examples/examples.gallery.js"></script>
-<script src="<?= $urlcompleta; ?>js/examples/examples.portfolio.js"></script>
+<script src="<?= $urlcompleta; ?>js/default.min.js"></script>
 
 <script src="https://hcaptcha.com/1/api.js"></script>
 
